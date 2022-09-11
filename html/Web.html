@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<!-- 웹호스팅에 관한 내용 정리 -->
+<!-- 주석 단축어 ctrl + / -->
+<!-- 정렬할 코드 드래구 후 정렬 ctrl + k + f  -->
+
+<head>
+    <title>
+
+    </title>
+</head>
+
+
+<body>
+    <!-- 임무 분담제 표 만들기
+        
+        필요한 기능
+        1. 소대별로 인원 입력 삭제 버튼 
+        -> 입력할때 소대 입력 후 생활관 입력 
+
+        2. 개인 임무 분담제 묶음 data set 4개 -> 각각의 데이터 셋 
+
+        3. 개인 임무분담제 시 순환으로 돌아가면서 randomize 
+        Data_1(생활관 청소구역)    Data_2(중대 청소구역)
+
+        previous data -> negative
+        소대 묶음 data -> positive 
+
+
+        4. 계원 및 열외 인원들 청소제외 버튼 
+        5.  -->
+
+    <form>
+        병사 분류를 선택하세요 <br /><br />
+        <input type="radio" name="platoon" value="1p">
+        1소대
+        <input type="radio" name="platoon" value="2p">
+        2소대
+        <input type="radio" name="platoon" value="3p">
+        3소대
+        <input type="radio" name="platoon" value="4p">
+        4소대
+        <br />
+
+    
+    
+        <br />
+        <hr>
+
+
+        <br />
+        생활관을 선택 하세요 <br />
+
+        <input type="radio" name="room" value="1r">
+        1생활관
+        <input type="radio" name="room" value="2r">
+        2생활관
+        <input type="radio" name="room" value="3r">
+        3생활관
+        <input type="radio" name="room" value="4r">
+        4생활관
+        <br />
+
+        <input type="radio" name="room" value="5r">
+        5생활관
+        <input type="radio" name="room" value="6r">
+        6생활관
+        <input type="radio" name="room" value="7r">
+        7생활관
+        <input type="radio" name="room" value="8r">
+        8생활관
+        <br />
+        
+        <input type="radio" name="room" value="9r">
+        9생활관
+        <input type="radio" name="room" value="10r">
+        10생활관
+        <input type="radio" name="room" value="11r">
+        11생활관
+        <input type="radio" name="room" value="12r">
+        12생활관
+
+    </form>
+</body>
+
+</html>
